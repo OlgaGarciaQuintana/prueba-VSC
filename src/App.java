@@ -16,9 +16,13 @@ public class App {
 		double nota3;
 		System.out.println("Introduce nota 3:");
 		nota3 = entrada.nextDouble();
+
+	    	double nota4;
+		System.out.println("Introduce nota 4:");
+		nota4 = entrada.nextDouble();
 		
 		//Media:
-		double media = (nota1 + nota2 + nota3)/ 3;
+		double media = (nota1 + nota2 + nota3 + nota4)/ 4;
 		System.out.println("La nota media es: " + media);
     }
 }
